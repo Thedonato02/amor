@@ -8,10 +8,10 @@ const text5 = 'Así también quiero que sepas'.split('');
 const text6 = 'lo importante que eres para mí.'.split('');
 const text7 = 'En verdad, el amor que siento por ti es muy inmenso,'.split('');
 const text8 = 'que no tiene comparación.'.split('');
-const text9 = 'Quiero que sepas que siempre me tendrás para apoyarte en todo mi mujer hermosa'.split('');
+const text9 = 'Estare para toda la vida'.split('');
 const text10 = 'TE AMO AMOR DE MI VIDA'.split('');
 const text11 = 'MI MUJER Y FUTURA ESPOSA ❤️'.split('');
-// Función para agregar texto con separación
+// Función para agregar texto con separ
 function addTextToTitle(text) {
   const line = document.createElement('div'); // Crear un div para cada línea
   line.style.marginBottom = '20px'; // Espacio entre líneas
