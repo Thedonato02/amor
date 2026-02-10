@@ -9,8 +9,8 @@ const text6 = 'lo importante que eres para mí.'.split('');
 const text7 = 'En verdad, el amor que siento por ti es muy inmenso,'.split('');
 const text8 = 'que no tiene comparación.'.split('');
 const text9 = 'Quiero que sepas que siempre me tendrás para apoyarte en todo mi mujer hermosa'.split('');
-const text10 = 'TE AMO AMOR DE MI VIDA , MI MUJER Y FUTURA ESPOSA❤️'.split('');
-
+const text10 = 'TE AMO AMOR DE MI VIDA'.split('');
+const text11 = 'MI MUJER Y FUTURA ESPOSA ❤️'.split('');
 // Función para agregar texto con separación
 function addTextToTitle(text) {
   const line = document.createElement('div'); // Crear un div para cada línea
@@ -36,6 +36,7 @@ addTextToTitle(text7);
 addTextToTitle(text8);
 addTextToTitle(text9);
 andTextToTitle(text10);
+andTextToTitle(text11);
 
 // Aplicar animación con retraso aleatorio
 const textElements = document.querySelectorAll('.title span');
