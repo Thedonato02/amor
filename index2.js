@@ -1,9 +1,10 @@
 const title = document.querySelector('.title');
 
-const text1 = 'Primero quiero darte gracias por todo lo que has hecho'.split('');
-const text2 = 'lo que hemos hecho juntos'.split('');
-const text3 = 'por haber llegado a mi vida.'.split('');
-const text4 = 'Así también quiero que sepas lo importante que eres para mí.'.split('');
+const text1 = 'Quiero darte gracias por todo lo que has hecho'.split('');
+const text2 = 'en todo este tiempo '
+const text3 = 'lo que hemos hecho juntos'.split('');
+const text4 = 'por haber llegado a mi vida.'.split('');
+const text4 = 'Así también quiero que sepas'.split('');
 const text5 = 'lo importante que eres para mí.'.split('');
 const text6 = 'En verdad, el amor que siento por ti es muy inmenso,'.split('');
 const text7 = 'que no tiene comparación.'.split('');

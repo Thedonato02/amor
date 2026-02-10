@@ -1,7 +1,7 @@
 const title = document.querySelector('.title');
 const text1 = 'HOLA MI AMOR ❤️....'.split('');
-const text2 = 'QUIERO HACERTE'.split('');
-const text3 = 'UNA PREGUNTA...?'.split('');
+const text2 = 'QUIERO '.split('');
+const text3 = 'PREGUNTARTE...?'.split('');
 // Función para agregar texto con separación
 function addTextToTitle(text) {
   const line = document.createElement('div'); // Crear un div para cada línea
