@@ -1,15 +1,15 @@
 const title = document.querySelector('.title');
 
-const text1 = 'Quiero darte gracias por todo lo que has hecho'.split('');
-const text2 = 'en todo este tiempo '
-const text3 = 'lo que hemos hecho juntos'.split('');
+const text1 = 'Quiero darte gracias por todo lo que has hecho por mi'.split('');
+const text2 = 'en todo este tiempo.'.split('');
+const text3 = 'Eres una bendicion de Dios'.split('');
 const text4 = 'por haber llegado a mi vida.'.split('');
-const text4 = 'Así también quiero que sepas'.split('');
-const text5 = 'lo importante que eres para mí.'.split('');
-const text6 = 'En verdad, el amor que siento por ti es muy inmenso,'.split('');
-const text7 = 'que no tiene comparación.'.split('');
-const text8 = 'Quiero que sepas que siempre me tendrás para apoyarte.'.split('');
-const text9 = 'TE AMO AMOR ❤️'.split('');
+const text5 = 'Así también quiero que sepas'.split('');
+const text6 = 'lo importante que eres para mí.'.split('');
+const text7 = 'En verdad, el amor que siento por ti es muy inmenso,'.split('');
+const text8 = 'que no tiene comparación.'.split('');
+const text9 = 'Quiero que sepas que siempre me tendrás para apoyarte en todo mi mujer hermosa'.split('');
+const text10 = 'TE AMO AMOR DE MI VIDA , MI MUJER Y FUTURA ESPOSA❤️'.split('');
 
 // Función para agregar texto con separación
 function addTextToTitle(text) {
@@ -35,6 +35,7 @@ addTextToTitle(text6);
 addTextToTitle(text7);
 addTextToTitle(text8);
 addTextToTitle(text9);
+andTextToTitle(text10);
 
 // Aplicar animación con retraso aleatorio
 const textElements = document.querySelectorAll('.title span');
